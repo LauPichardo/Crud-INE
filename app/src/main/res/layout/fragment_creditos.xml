@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="572dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="125dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/escudo" />
+
+            <TextView
+                android:id="@+id/text_creditos"
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/tecnm"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/creditos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="@string/Creditos"
+                android:textColor="#8000FF"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="398dp"
+            android:layout_height="273dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alumnos"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Marthirri" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kelly" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/yo" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Profesor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/Rocio" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/carrera"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/ings" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/materia"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desarrollo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="397dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="338dp"
+                android:layout_height="31dp"
+                android:gravity="center"
+                android:text="@string/semestre" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ciclo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

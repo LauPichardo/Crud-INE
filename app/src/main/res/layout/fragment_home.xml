@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="250dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="DATOS INE"
+            android:textColor="#8000FF"
+            android:textSize="30sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="La aplicación solicita los datos de la credencial para votar para su captura tales como el nombre, domicilio, clave electoral, CURP, dirección etc. Los datos se pueden consultar mediante la CURP, el nombre completo, municipio así también se puede modificar, eliminar el registro completo o listar."
+            android:textColor="#151515"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

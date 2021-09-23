@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numerodeversion">
+        <item>Selecciona un número de versión</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="estados">
+        <item>Seleccione un estado</item>
+        <item>México</item>
+    </string-array>
+    <string-array name="municipios">
+        <item>No se ha seleccionado un estado</item>
+    </string-array>
+    <string-array name="municipiosEdoMex">
+        <item>Selecciona un municipio</item>
+        <item>Metepec</item>
+        <item>San Mateo Atenco</item>
+        <item>Tultepec</item>
+        <item>Ocoyoacac</item>
+        <item>Santiago Tianguistenco</item>
+    </string-array>
+
+    <string-array name="seccion">
+        <item>No se ha seleccionado un municipio</item>
+    </string-array>
+
+    <string-array name="seccionMetepec">
+        <item>Selecciona una sección</item>
+        <item>2464</item>
+        <item>2465</item>
+        <item>2466</item>
+        <item>2467</item>
+        <item>2468</item>
+    </string-array>
+
+    <string-array name="seccionSanMateo">
+        <item>Selecciona una sección</item>
+        <item>4121</item>
+        <item>4122</item>
+        <item>4123</item>
+        <item>4124</item>
+        <item>4125</item>
+    </string-array>
+
+    <string-array name="seccionTultepec">
+        <item>Selecciona una sección</item>
+        <item>5452</item>
+        <item>5453</item>
+        <item>5454</item>
+        <item>5455</item>
+        <item>5456</item>
+    </string-array>
+
+    <string-array name="seccionOcoyoacac">
+        <item>Selecciona una sección</item>
+        <item>3828</item>
+        <item>3829</item>
+        <item>3830</item>
+        <item>3831</item>
+        <item>3832</item>
+    </string-array>
+
+    <string-array name="seccionTianguistenco">
+        <item>Selecciona una sección</item>
+        <item>4701</item>
+        <item>4702</item>
+        <item>4703</item>
+        <item>4704</item>
+        <item>4705</item>
+    </string-array>
+    <string-array name="entidades">
+        <item>AS Aguascalientes</item>
+        <item>BC Baja California Norte</item>
+        <item>BS Baja California Sur</item>
+        <item>CC Campeche</item>
+        <item>CL Coahuila</item>
+        <item>CM Colima</item>
+        <item>CS Chiapas</item>
+        <item>CH Chihuahua</item>
+        <item>DF</item>
+        <item>DG Durango</item>
+        <item>GT Guanajuato</item>
+        <item>GR Guerrero</item>
+        <item>HG Hidalgo</item>
+        <item>JC Jalisco</item>
+        <item>MC México</item>
+        <item>MN Michoacan</item>
+        <item>MS Morelos</item>
+        <item>NT Nayarit</item>
+        <item>NL Nuevo León</item>
+        <item>OC Oaxaca</item>
+        <item>PL Puebla</item>
+        <item>QT Queretaro</item>
+        <item>QR Quintana Roo</item>
+        <item>SP San Luis Potosí</item>
+        <item>SL Sinaloa</item>
+        <item>SR Sonora</item>
+        <item>TC Tabasco</item>
+        <item>TS Tamaulipas</item>
+        <item>TL Tlaxcala</item>
+        <item>VZ Veracruz</item>
+        <item>YNYucatan</item>
+        <item>ZS Zacatecas</item>
+        <item>SM Serv. Exterior Mexicano</item>
+        <item>NE Nacido en el extranjero</item>
+
+    </string-array>
+
+</resources>
